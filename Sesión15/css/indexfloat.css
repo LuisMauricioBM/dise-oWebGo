@@ -1,0 +1,31 @@
+main{
+    color: white;
+    font-family: arial;
+}
+
+header{
+    background-color: blueviolet;
+    height: 200px;
+}
+nav{
+    background-color: cornflowerblue;
+    width: 15%;
+}
+section{
+    background-color: indigo;
+    width: 70%;
+}
+aside{
+    background-color: darkmagenta;
+    width: 15%;
+}
+footer{
+    background-color: darkorchid;
+    height: 80px;
+    clear: left;
+}
+
+nav,aside,section{
+    float: left;
+    height: 340px;
+}

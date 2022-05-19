@@ -41,7 +41,7 @@ header{
     color: rgb(249, 133, 9);
 }
 nav{
-    background-color: cornflowerblue;
+    background-color: rgb(249, 133, 9);
     grid-area: my-nav;
 }
 section{
@@ -50,7 +50,7 @@ section{
     grid-area: my-section;
 }
 aside{
-    background-color: darkmagenta;
+    background-color: rgb(249, 133, 9);
     grid-area: my-aside;
 }
 footer{

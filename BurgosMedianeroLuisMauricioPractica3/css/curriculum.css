@@ -1,0 +1,152 @@
+#caja1{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#caja2{
+    float: right;
+    margin: 20px;
+}
+
+#caja3{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    float: left;
+}
+
+#img1{
+    width: 230px;
+    height: 140px;
+    float: right;
+    margin: 5px;
+}
+
+
+#txt1{
+    margin: 15px;
+}
+
+body{
+    margin: 0px auto;
+}
+
+main{
+    color: white;
+    font-family: arial;
+}
+
+header{
+    background-color: rgb(33, 141, 188);
+    grid-area: my-header;
+}
+nav{
+    background-color: rgb(152, 152, 172);
+    grid-area: my-nav;
+}
+section{
+    background-color: white;
+    grid-area: my-section;
+    color: black;
+}
+aside{
+    background-color: rgb(73, 176, 232);
+    grid-area: my-aside;
+}
+footer{
+    background-color: rgb(33, 141, 188);
+    grid-area: my-footer;
+    height: 220px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer";
+}
+
+.griv{
+    display: griv;
+
+    grid-template-areas: "head head" 
+    "menu main" 
+    "foot foot";
+}
+
+.x{
+    grid-area: head;
+}
+
+.y{
+    grid-area: menu;
+}
+
+.z{
+    grid-area: main;
+}
+
+.w{
+    grid-area: foot;
+}
+
+.x, .y, .z, .w {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.griss{
+    display: griss;
+
+    grid-template-areas: "head head" 
+    "menu main" 
+    "foot foot";
+}
+
+.a{
+    grid-area: head;
+}
+
+.b{
+    grid-area: menu;
+}
+
+.c{
+    grid-area: main;
+}
+
+.d{
+    grid-area: foot;
+}
+
+.a, .b, .c, .d {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10;
+    margin-right: 100px;
+}
+
+.gridy{
+    display: gridy;
+}
+
+.ty1{
+    background-color: rgb(152, 152, 172);
+}
+
+.ty2{
+    background-color: rgb(152, 152, 172);
+}
+
+#a1, #a2{
+    margin-left: 5px;
+}
+
+.ty1, .ty2{
+margin: 10px;
+height: 180px;
+}
+

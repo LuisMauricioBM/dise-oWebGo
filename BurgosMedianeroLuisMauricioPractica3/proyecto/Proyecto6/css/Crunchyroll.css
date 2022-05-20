@@ -1,0 +1,78 @@
+#body{
+    margin: auto;
+}
+
+#caja1{
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+}
+
+#caja2{
+    width:100%;
+    max-width:500px;
+    float: right;
+    margin: 10px;
+}
+
+#text1{
+    margin-bottom: 20px;
+}
+
+body{
+    margin: 0px auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer";
+}
+
+main{
+    color: white;
+    font-family: arial;
+}
+
+header{
+    background-color: rgba(11, 11, 11, 0.894);
+    grid-area: my-header;
+    text-align: center;
+    color: rgb(249, 133, 9);
+}
+nav{
+    background-color: rgb(249, 133, 9);
+    grid-area: my-nav;
+}
+section{
+    background-color: rgba(11, 11, 11, 0.894);
+    color: rgb(249, 133, 9);
+    grid-area: my-section;
+}
+aside{
+    background-color: rgb(249, 133, 9);
+    grid-area: my-aside;
+}
+footer{
+    background-color:rgba(11, 11, 11, 0.894);
+    color: rgb(249, 133, 9);
+    grid-area: my-footer;
+}
+
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 85% 15%;
+        grid-template-areas: "my-header my-header" 
+        "my-nav my-nav" "my-section my-aside"
+        "my-footer my-footer";
+    }
+}
+
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-areas: "my-header my-header my-header" 
+        "my-nav my-section my-aside"
+        "my-footer my-footer my-footer";
+    }
+}

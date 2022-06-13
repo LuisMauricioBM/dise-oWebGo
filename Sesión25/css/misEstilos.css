@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+}
+
+#cover{
+    background: #222 url(../img/pug.jpg) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+#cover-texto{
+    width: 100%;
+}

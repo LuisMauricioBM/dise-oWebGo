@@ -10,41 +10,88 @@
 
 </head>
 <body>
-<main>
-    <div class="d-flex flex-row-reverse">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+  <header>
+
+    <div class="d-flex flex-row-reverse" >
+        <ul class="nav justify-content-end" >
+          <li class="nav-tabs">
+            <button onclick="location.href='index.html'" type="button" class="btn btn-primary" style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ;" >
+              Inicio
+            </button></li>
+            <li class="nav-tabs">
+              <button type="button" class="btn btn-primary" style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ;" >
+                Productos
+              </button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+            <li class="nav-tabs">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal" style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ;" >
+                Compras
+              </button>
+              <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h6>Descubre todos los platos que tenemos para ti</h6>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a href="./compras.html" class="btn btn-primary btn-lg" tabindex="-1" role="button">Ir a la tienda</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Compras</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Nosotros</a>
-            </li>
+            <li class="nav-tabs">
+              <button type="button" class="btn btn-primary"  style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ;" >
+                Proyectos
+              </button></li>
+              <li class="nav-tabs">
+                <button type="button" class="btn btn-primary" style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ;" >
+                  Nosotros
+                </button></li>
         </ul>
     </div>
     <div ><img id="Foto" src="./img/logo.jpg" alt="logo"></div>
-    <div ><a href=""><img id="Fot" src="./img/carrito.jpg" alt="1"></a></div>
-    <div ><a href=""><img id="Fot1" src="./img/icon.jpg" alt="1"></a></div>
+    <div ><a href=""><img id="Fot" src="./img/iniciar-sesion.png" alt="1"></a></div>
+    <div data-bs-toggle="modal" data-bs-target="#Modal" style="border-radius: 0% ; background-color: burlywood; border-color: #a7896c ; cursor: pointer;"><img id="Fot1" src="./img/carrito.jpg " alt="1">
+      <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h6>Descubre todos los platos que tenemos para ti</h6>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <a href="./compras.html" class="btn btn-primary btn-lg" tabindex="-1" role="button">Ir a la tienda</a>
+            </div>
+          </div>
+        </div>
+      </div></div>
         <div id="Titulo">
             <h1 style="margin-left: 180px; font-family: cambria;">La comida HTML </h1>
             <h4 style="margin-left: 180px; font-family: Cambria;">"Porque comer es volver a vivir"</h4>   
         </div>
+</header>
 <section>
-  <div class="subtitulo">
-      <h2 id="productos">Productos</h2>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-6 g-4">
+  <section id="cover" class=" d-flex align-items-center justify-content-center">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class=" container-fluid carousel-inner">
+        <div class="subtitulo">
+          <h2 id="productos">Productos</h2>
+            </div>
+               <div class="row row-cols-1 row-cols-md-6 g-4">
       
-      <div class="col">
+        <div class="col">
         <div class="card h-100">
           <img src="./img/ajidegallina.jpg" class="card-img-top" alt="Ají de gallina">
           <div class="card-body">
@@ -65,7 +112,7 @@
 
       <div class="col">
         <div class="card h-100">
-          <img src="images/arrozconpollo.jpg" class="card-img-top" alt="Arroz con pollo">
+          <img src="img/arrozconpollo.jpeg" class="card-img-top" alt="Arroz con pollo">
           <div class="card-body">
               <div class="d-flex justify-content-start">
                   <p class="card-text">Arroz con pollo</p>
@@ -84,7 +131,7 @@
 
       <div class="col">
         <div class="card h-100">
-          <img src="images/causalimeña.jpg" class="card-img-top" alt="Causa limeña">
+          <img src="img/causanorteña.jpeg" class="card-img-top" alt="Causa limeña">
           <div class="card-body">
               <div class="d-flex justify-content-start">
                   <p class="card-text">Causa limeña</p>
@@ -103,7 +150,7 @@
 
       <div class="col">
           <div class="card h-100">
-            <img src="images/ceviche.jpg" class="card-img-top" alt="Ceviche">
+            <img src="img/CEVICHE.jpeg" class="card-img-top" alt="Ceviche">
             <div class="card-body">
               <div class="d-flex justify-content-start">
                   <p class="card-text">Ceviche</p>
@@ -122,7 +169,7 @@
 
         <div class="col">
           <div class="card h-100">
-            <img src="images/lomosaltado.jpg" class="card-img-top" alt="Lomo saltado">
+            <img src="img/Lomo.jpeg" class="card-img-top" alt="Lomo saltado">
             <div class="card-body">
               <div class="d-flex justify-content-start">
                   <p class="card-text">Lomo saltado</p>
@@ -141,7 +188,7 @@
 
         <div class="col">
           <div class="card h-100">
-            <img src="images/pachamanca.jpg" class="card-img-top" alt="Pachamanca">
+            <img src="img/Pachamanca.jpeg" class="card-img-top" alt="Pachamanca">
             <div class="card-body">
               <div class="d-flex justify-content-start">
                   <p class="card-text">Pachamanca</p>
@@ -157,7 +204,15 @@
             </div>
           </div>
         </div>
-
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <main class="grid">
@@ -209,7 +264,7 @@
                       <input type="password" class="form-control" id="inputPassword3" placeholder="email">
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Envir compra</button>
+                  <button type="submit" class="btn btn-primary">Enviar compra</button>
                   <br>
                   <br>
                   <button type="submit" class="btn btn-primary">Nueva compra</button>

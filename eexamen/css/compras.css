@@ -76,3 +76,45 @@ header nav a.activo{
   max-width: 30px;
   margin-bottom: 1rem;
 }
+body {
+  margin-top: 0%;
+  background-color: #a7896c;
+}
+header{
+  padding: 2px 0;
+  font-family: black;
+}
+#Foto {
+  width: 162px;
+  height: 152px;
+  float: left;
+  margin-left: 15px;
+}
+
+#Titulo {
+  background-color: burlywood;
+  text-align: left;
+  padding: 30px;
+  color: black;
+}
+#Fot {
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+#Fot1 {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#mapa{
+  max-height: 130px;
+}
+#redes img{
+  max-width: 30px;
+  margin-bottom: 1rem;
+}
+footer{
+  margin-top: 0%;
+  background-color: burlywood;
+}

@@ -12,11 +12,27 @@ header{
   float: left;
   margin-left: 15px;
 }
+
 .foto2 {
   width: 200px;
   height: 100px;
   float: right;
   
+}
+
+#src1 {
+  width: 28%;
+  margin-top: 100px;
+  float: left;
+}
+
+.b{
+  width: 309px;
+}
+
+.caja2{
+  width: 72%;
+  float: left;
 }
 
 #Titulo {

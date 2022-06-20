@@ -13,3 +13,26 @@ html, body {
 #cover-texto{
     width: 100%;
 }
+
+.caja1{
+    float: left;
+    width: 25%;
+}
+
+.caja2{
+    float: left;
+    width: 75%;
+}
+
+.caja3{
+    width: 100%;
+    float: right;
+}
+
+footer{
+    background-color: white;
+}
+
+img{
+    height: 670px;
+}

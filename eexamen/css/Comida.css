@@ -1,0 +1,58 @@
+header{
+  padding: 30px 0;
+  font-family: black;
+}
+header .contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  color: var(--rojo);
+  font-size: 40px;
+}
+header nav{
+  display: flex;
+}
+header nav a{
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 30px;
+}
+#Foto {
+  width: 162px;
+  height: 152px;
+  float: left;
+  margin-left: 15px;
+}
+header nav a:hover,
+header nav a.activo{
+  color: #fff;
+}
+
+#Titulo {
+  background-color: grey;
+  text-align: left;
+  padding: 30px;
+  color: black;
+}
+#Fot {
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+#Fot1 {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#mapa{
+  max-height: 130px;
+}
+#redes img{
+  max-width: 30px;
+  margin-bottom: 1rem;
+}

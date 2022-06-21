@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre":"Ají de gallina",
+    "precio": 35,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-005_0.jpg"
+  },
+  {
+    "id": 2,
+    "nombre":"Arroz con pollo",
+    "precio": 38,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-001.jpg"
+  },
+  {
+    "id": 3,
+    "nombre":"Causa limeña",
+    "precio": 33,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-008.jpg"
+  },
+  {
+    "id": 4,
+    "nombre":"Ceviche",
+    "precio": 40,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-006_0.jpg"
+  },
+  {
+    "id": 5,
+    "nombre":"Lomo saltado",
+    "precio": 36,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-004_0.jpg"
+  },
+  {
+    "id": 6,
+    "nombre":"Pachamanca",
+    "precio": 45,
+    "imagen": "https://www.lima2019.pe/sites/default/files/inline-images/preview-gallery-010.jpg"
+  }
+]
